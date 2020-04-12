@@ -4,6 +4,6 @@ function testFunc() {
   return "hi"
 }
 
-function superbowlWin() {
+function superbowlWin(Array) {
 roommates.find( function(s) { return s === "winston" })
 }
