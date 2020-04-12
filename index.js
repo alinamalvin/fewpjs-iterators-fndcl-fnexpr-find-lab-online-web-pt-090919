@@ -4,12 +4,12 @@ function testFunc() {
   return "hi"
 }
 
-function superbowlWin(record){
-  let year 
-  record.find(function(recordObj){
-    if(recordObj["result"] === "W"){
-      year = recordObj.year
+const superbowlWin = (arr) => {
+  let year;
+  arr.find(obj => {
+    if (obj["result"] === "W") {
+      year = obj.year;
     }
   })
-  return year
-} 
+  return year;
+}
